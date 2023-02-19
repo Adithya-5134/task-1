@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body,html{
+    overflow-x: hidden;
+}
 
 a{
     text-decoration: none;
@@ -126,7 +129,6 @@ section.home{
     font-weight:;
     font-size: 22px;
     margin-left:90px;
-    width:526px;
     font-family:"calibri";
     
 
@@ -271,6 +273,114 @@ section.about{
     background-color:;
 }
 
+@media(max-width:1322px){
+    section.home{
+        
+        display:flex;
+        flex-direction:column;
+        height:900px;
+    }
+    .bdr{
+        display:none;
+    }
 
+    .videoo{
+        position:absolute;
+        top:630px;
+        right:250px;
+    }
+
+    .writing{
+        display:block;
+        text-align: center;
+    }
+    .para{
+        margin-top:20px;
+        
+        font-size: 22px;
+        text-align: center;
+        
+        margin-left:45px;
+        margin-right:45px;
+        
+        
+    
+        font-family:"calibri";
+    }
+
+    
+}
+
+
+
+@media(max-width:981px)
+{
+
+
+    .navbar{
+    
+        display:block;
+        margin-top:2px;
+        width:100vw;
+        height:70px;
+        background-color:
+    }
+    
+    
+    
+    .nav-links li{
+       font-size: 30px;
+       
+        
+    }
+    
+    .nav-links{
+        
+       float:right;
+       
+        
+       
+    }
+    
+    
+    .logo{
+        
+        padding-top:15px;
+        padding-left: 35px;
+        font-weight:bold;
+        font-size: 20px;
+        letter-spacing: 0.2em;
+        font-family: Arial;
+    }
+    
+    .underline{
+       
+       margin-left:30px;
+        width:200px;
+        border-radius: 3px;
+        height:4px;
+        background-color: #e32c30;
+    }
+    
+    .lelogo{
+        display: block;
+        width:300px;
+        height:69px;
+    }
+    .videoo{
+        position:absolute;
+        top:630px;
+        right:85px;
+    }
+    
+
+
+}
+
+
+
+
+
+    
 
 
