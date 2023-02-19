@@ -105,16 +105,18 @@ border-radius: 25px
 
 section.home{
     display: flex;
+    justify-content: space-between;
     margin-top: 80px;
     
     width:100vw;
     height:380px;
-    background-color:;
+    background-color
     
    
 }
 
 .heading{
+    
     margin-left: 90px;
     font-size: 45px;
     font-family:lucida;
@@ -125,26 +127,35 @@ section.home{
     font-size: 22px;
     margin-left:90px;
     width:526px;
-    font-family:calibri;
+    font-family:"calibri";
+    
+
+}
+
+
+.writing{
+    display: flex;
+    justify-content: space-between;
+    display:block;
+    
+    height:380px;
+    background-color: 
+    
 }
 
 
 .videobdr{
-    display: inline;
-    margin-right:50px;
     
-
+    margin-left:px;
     
-    padding-left: 160px;
-
 }
 
 .bdr{
     
     margin-top: 0px;
-    margin-right: 50px;
+    margin-right: 70px;
 
-    width:611px;
+    width:630px;
     height:355px;
     border:4px solid #e81a25bf;
     border-radius: 10px;
@@ -153,7 +164,7 @@ section.home{
 .videoo{
     position: absolute;
     top:270px;
-    right:120px;
+    right:30px;
     border-radius:3px;
     
 }
@@ -175,7 +186,7 @@ section.about{
 }
 .about1{
     margin-left: 90px;
-    display:flex
+    display:flex;
 }
 
 .ab1{
@@ -215,9 +226,14 @@ section.about{
 }
 
 .logos{
+    margin-left: 90px;
+    margin-right:85px;
     display: flex;
+    justify-content: space-between;
     margin-top: 80px;
     margin-left: 90px;
+    background-color: 
+    
 }
 
 .logo1{
@@ -225,25 +241,12 @@ section.about{
     font-weight:bolder;
     font-style: italic;
     color: rgb(53, 52, 52);
+    
 }
 
-.logo2{
-    margin-left: 85px;
-}
 
-.logo3{
-    margin-left: 83px;
-}
-.logo4{
-    margin-left: 83px;
-}
 
-.logo5{
-    margin-left:83px;
-}
-.logo6{
-    margin-left: 83px;
-}
+
 
 .end{
     display:flex;
@@ -265,6 +268,7 @@ section.about{
     font-size:22px;
     width:650px;
     font-family: Arial;
+    background-color:;
 }
 
 
