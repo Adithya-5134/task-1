@@ -325,7 +325,9 @@ section.about{
         height:70px;
         background-color:
     }
-    
+    .bdr{
+        display: none;
+    }
     
     
     .nav-links li{
@@ -375,6 +377,37 @@ section.about{
     
 
 
+}
+
+
+@media(max-width:650px){
+
+    .header{
+        position: fixed;
+    }
+    .navbar{
+        
+    }
+    .nav-links{
+        position:absolute;
+        
+        left:0;
+        width:100vw;
+        height:500px;
+        background-color: #484872;
+        text-align: center;
+
+        
+    }
+    .nav-links li{
+        display: block;
+        margin:10px
+    }
+    section.home{
+        width:100%;
+    }
+   
+    
 }
 
 
