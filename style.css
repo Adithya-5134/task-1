@@ -768,6 +768,10 @@ section.about{
     .header{
         position: fixed;
     }
+
+    .act{
+        border-style: none;
+    }
     
     .nav-links{
         position:absolute;
@@ -782,7 +786,7 @@ section.about{
     }
     .nav-links li{
         display: block;
-        margin:10px
+        margin:10px;
     }
     section.home{
         margin-top: 350px;
@@ -818,6 +822,19 @@ section.about{
         width: 300px;
         height: 20px;
         margin-left:90px;
+
+    }
+
+    a:visited{
+        color: whitesmoke;
+    }
+
+    a:hover{
+        color:yellow;
+    }
+
+    a:active{
+        color:#e32c30;
 
     }
    
