@@ -697,6 +697,11 @@ section.about{
 
 @media(max-width:981px)
 {
+    .heading{
+        font-size: 40px;
+        margin-left: 20px;
+
+    }
 
 
     .navbar{
@@ -762,7 +767,7 @@ section.about{
 }
 
 
-@media(max-width:650px){
+@media(max-width:680px){
 
     .header{
         position: fixed;
@@ -795,8 +800,9 @@ section.about{
         
     }
     .heading{
-        font-size: 35px;
-        margin-left: 40px;
+        
+        font-size: 30px;
+        margin-left: 0px;
     }
     .videoo{
         position: absolute;
@@ -825,6 +831,7 @@ section.about{
         margin-left:90px;
 
     }
+   
 
 
    
