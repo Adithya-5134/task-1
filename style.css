@@ -651,6 +651,28 @@ section.about{
     
 }
 
+
+
+a.jj:visited{
+    color:black;
+}
+
+a.jj:hover{
+    color:white;
+}
+a.jj:active{
+    color:yellow;
+}
+
+a.hh:visited{
+    color: black;
+}
+a.hh:hover{
+    color: rgb(58, 15, 231);
+}
+a.hh:active{
+    color:yellow;
+}
 @media(max-width:1322px){
     section.home{
         
