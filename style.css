@@ -19,8 +19,6 @@ header{
     align-items: center;
     justify-content: center;
 
-    
-    
 }
 
 .header-content{
@@ -40,7 +38,7 @@ header{
     margin-top:30px;
     width:100vw;
     height:70px;
-    background-color:;
+    
 }
 
 
@@ -55,7 +53,7 @@ header{
     
     margin-top: 22px;
     margin-right: 75px;
-    background-color: ;
+   
    
 }
 
@@ -83,7 +81,7 @@ header{
     display: block;
     width:300px;
     height:69px;
-    background-color:;
+    
 }
 
 
@@ -113,20 +111,20 @@ section.home{
     
     width:100vw;
     height:380px;
-    background-color
+    
     
    
 }
 
 .heading{
     
-    margin-left: 90px;
-    font-size: 45px;
-    font-family:lucida;
+     margin-left: 90px;
+     font-size:45px;
+    font-family:"lucida";
 }
 .para{
     margin-top:20px;
-    font-weight:;
+    
     font-size: 22px;
     margin-left:90px;
     font-family:"calibri";
@@ -141,7 +139,7 @@ section.home{
     display:block;
     
     height:380px;
-    background-color: 
+    
     
 }
 
@@ -234,7 +232,7 @@ section.about{
     justify-content: space-between;
     margin-top: 80px;
     margin-left: 90px;
-    background-color: 
+   
     
 }
 
@@ -270,7 +268,7 @@ section.about{
     font-size:22px;
     width:650px;
     font-family: Arial;
-    background-color:;
+    
 }
 
 @media(max-width:1322px){
@@ -323,8 +321,9 @@ section.about{
         margin-top:2px;
         width:100vw;
         height:70px;
-        background-color:
+        
     }
+
     .bdr{
         display: none;
     }
@@ -422,7 +421,7 @@ header{
     margin-top:30px;
     width:100vw;
     height:70px;
-    background-color:;
+
 }
 
 
@@ -437,7 +436,6 @@ header{
     
     margin-top: 22px;
     margin-right: 75px;
-    background-color: ;
    
 }
 
@@ -465,7 +463,6 @@ header{
     display: block;
     width:300px;
     height:69px;
-    background-color:;
 }
 
 
@@ -495,7 +492,7 @@ section.home{
     
     width:100vw;
     height:380px;
-    background-color
+    
     
    
 }
@@ -508,7 +505,6 @@ section.home{
 }
 .para{
     margin-top:20px;
-    font-weight:;
     font-size: 22px;
     margin-left:90px;
     font-family:"calibri";
@@ -523,7 +519,7 @@ section.home{
     display:block;
     
     height:380px;
-    background-color: 
+    
     
 }
 
@@ -616,7 +612,7 @@ section.about{
     justify-content: space-between;
     margin-top: 80px;
     margin-left: 90px;
-    background-color: 
+    
     
 }
 
@@ -710,7 +706,7 @@ section.about{
         margin-top:2px;
         width:100vw;
         height:70px;
-        background-color:
+       
     }
     .bdr{
         display: none;
@@ -772,10 +768,7 @@ section.about{
     .header{
         position: fixed;
     }
-    .navbar{
-        
-    }
-
+    
     .nav-links{
         position:absolute;
         
@@ -796,9 +789,7 @@ section.about{
         
 
     }
-    .writing{
-        
-    }
+   
     .heading{
         
         font-size: 30px;
@@ -813,9 +804,7 @@ section.about{
     .logos{
         display: block;
     }
-    .videobdr{
-       widt
-    }
+  
     video.vd{
         width:400px;
         margin-left: 10px;
@@ -838,7 +827,13 @@ section.about{
     
 }
 
+@media(max-width:504px){
+    video.vd{
+        width:300px;
+        margin-left:20px;
 
+    }
+}
 
 
 
