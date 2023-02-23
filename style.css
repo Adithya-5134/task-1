@@ -799,6 +799,7 @@ a.hh:active{
         position:absolute;
         
         left:0;
+        top:110px;
         width:100vw;
         height:260px;
         background-color: #484872;
